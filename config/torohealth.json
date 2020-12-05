@@ -1,0 +1,30 @@
+{
+  "watchForChanges": true,
+  "hud": {
+    "distance": 70,
+    "x": -30.0,
+    "y": 20.0,
+    "scale": 1.0,
+    "hideDelay": 60,
+    "anchorPoint": "TOP_LEFT",
+    "showEntity": false,
+    "showBar": true,
+    "showSkin": false
+  },
+  "bar": {
+    "damageNumberType": "CUMULATIVE",
+    "friendColor": 16711935,
+    "friendColorSecondary": 8388863,
+    "foeColor": -16776961,
+    "foeColorSecondary": -2147483393
+  },
+  "inWorld": {
+    "mode": "NONE",
+    "distance": 60.0,
+    "onlyWhenLookingAt": false,
+    "onlyWhenHurt": false
+  },
+  "particle": {
+    "show": false
+  }
+}

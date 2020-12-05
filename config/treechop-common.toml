@@ -1,0 +1,20 @@
+#Whether this mod is enabled or not
+enabled = true
+#Whether players can deactivate chopping e.g. by sneaking
+canChooseNotToChop = true
+#Maximum number of leaves blocks that can destroyed when a tree is felled
+#Range: 1 ~ 8096
+maxTreeBlocks = 1024
+#Whether to destroy leaves when a tree is felled
+breakLeaves = true
+#Method to use for computing the number of chops needed to fell a tree
+#Allowed Values: LINEAR, LOGARITHMIC
+chopCountingMethod = "LOGARITHMIC"
+#Scales the number of chops (rounding down) required to fell a tree; with chopCountingMethod=LINEAR, this is exactly the number of chops per block
+#Range: 0.0 ~ 1024.0
+chopCountScale = 1.0
+#The tag that blocks must have to be considered choppable (default: treechop:choppables)
+blockTagForDetectingLogs = "treechop:choppables"
+#The tag that blocks must have to be considered leaves (default: treechop:leaves_like)
+blockTagForDetectingLeaves = "treechop:leaves_like"
+
