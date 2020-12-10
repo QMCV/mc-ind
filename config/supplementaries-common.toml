@@ -54,6 +54,9 @@
 		mobs = ["minecraft:slime", "minecraft:parrot", "minecraft:bee", "minecraft:magma_cube"]
 		#tinted jar catchable mobs
 		tinted_jar_mobs = ["minecraft:endermite", "minecraft:slime", "minecraft:parrot", "minecraft:bee", "minecraft:magma_cube", "minecraft:vex"]
+		#allow right click to instantly eat or drink food or potions inside a jar.
+		#Disable if you think this ability is op. Cookies are excluded
+		drink_from_jar = true
 		#jar liquid capacity: leave at 12 for pixel accuracy
 		#Range: 0 ~ 1024
 		capacity = 12
@@ -74,4 +77,6 @@
 		#Set to 0 to disable spawning entirely
 		#Range: 0 ~ 100
 		weight = 3
+		#Whitelisted mods. All biomes from said mods will be able to spawn fireflies. Use the one above for more control
+		mod_whitelist = []
 

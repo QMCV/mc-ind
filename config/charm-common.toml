@@ -133,6 +133,8 @@
 "WitchesDropLuck enabled" = true
 #A functional block that adds more efficient recipes for crafting wooden stairs and slabs.
 "Woodcutters enabled" = true
+#Refills your hotbar from your inventory.
+"AutoRestock enabled" = true
 
 [AnvilImprovements]
 	#If true, removes the maximum cost of 40 XP when working items on the anvil.
